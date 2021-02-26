@@ -1,5 +1,6 @@
 repositories {
   mavenCentral()
+  maven("https://jitpack.io")
 }
 
 plugins {
@@ -9,6 +10,7 @@ plugins {
 
 dependencies {
   implementation("com.github.ajalt.clikt:clikt:3.1.0")
+  implementation("io.ktor:ktor-server-netty:1.5.1")
   testImplementation("org.testng:testng:7.3.0")
   testImplementation("com.natpryce:hamkrest:1.8.0.1")
   testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
@@ -19,7 +21,7 @@ tasks.test {
 }
 
 tasks.compileKotlin {
-  kotlinOptions.jvmTarget = "11"
+  kotlinOptions.jvmTarget = "15"
 }
 
 tasks.jar {

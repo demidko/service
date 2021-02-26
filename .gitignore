@@ -21,8 +21,9 @@ hs_err_pid*
 .idea
 build
 .DS_Store
+*.jar
 
-# Disable Gradle wrapper
+# Gradle wrapper
 gradle
 gradlew
 gradlew.bat
