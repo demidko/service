@@ -1,4 +1,4 @@
-## Standard projekt
+## Projekt
 
 Kotlin template project without extra gradle-wrapper files. For brevity, double-space formatting is
 used. [`Clikt`](https://ajalt.github.io/clikt/whyclikt/) is included for parsing command line
