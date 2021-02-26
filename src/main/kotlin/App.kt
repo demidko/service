@@ -19,6 +19,10 @@ fun main(args: Array<String>) = object : CliktCommand("Application description h
       mockHealthyChecks()
     }
     echo("Application successfully started")
+
+    /**
+     * Your code here
+     */
   }
 
   private fun mockHealthyChecks() = embeddedServer(Netty) {
