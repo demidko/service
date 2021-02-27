@@ -5,7 +5,7 @@ used. [`Clikt`](https://ajalt.github.io/clikt/whyclikt/) is included for parsing
 arguments. [`Ktor`](https://ktor.io/) is included to mock Digital Ocean healthy checks.
 
 ### Usage
-* Just click button `use this template` in GitHub UI.
+* Just click [`this button`](https://github.com/demidko/Projekt/generate) to use template.
 
 ### Deploy to cloud with [`Digital Ocean`](https://cloud.digitalocean.com/)
 
