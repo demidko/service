@@ -3,6 +3,6 @@ version: "3.9"
 services:
   backend:
     build: .
-    command: java -jar /root/application $BACKEND_OPTIONS
+    command: java -jar app $BACKEND_OPTIONS
     ports:
       - "80:80"
