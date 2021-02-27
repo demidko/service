@@ -1,6 +1,4 @@
 import com.github.ajalt.clikt.core.CliktCommand
-import com.github.ajalt.clikt.parameters.options.flag
-import com.github.ajalt.clikt.parameters.options.option
 import io.ktor.application.*
 import io.ktor.http.HttpStatusCode.Companion.OK
 import io.ktor.response.*
@@ -10,25 +8,21 @@ import io.ktor.server.netty.*
 
 fun main(args: Array<String>) = object : CliktCommand("Application description here") {
 
-  private val isDigitalOcean by option(
-    "-d", "--digital-ocean",
-    help = "Enables routing 'localhost:80/' with OK answer. Use it to mock Digital Ocean healthy checks").flag()
-
   override fun run() {
-    if (isDigitalOcean) {
-      mockHealthyChecks()
-    }
-    echo("Application successfully started")
-
     /**
      * Your code here
      */
+    mockHealthyChecks()
   }
 
-  private fun mockHealthyChecks() = embeddedServer(Netty) {
-    routing {
-      get("/") { call.respond(OK) }
+  fun mockHealthyChecks() {
+    echo("localhost:80 -> HTTP 200 OK")
+    val server = embeddedServer(Netty) {
+      routing {
+        get("/") { call.respond(OK) }
+      }
     }
+    server.start(false)
   }
 
 }.main(args)

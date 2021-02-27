@@ -18,6 +18,6 @@ arguments. [`Ktor`](https://ktor.io/) is included to mock Digital Ocean healthy 
 
 ### Build with [`Gradle`](https://gradle.org/)
 
-* Execute command `gradle clean test shadowJar` to build self-executable jar.
+* Execute command `gradle clean test shadow` to build self-executable jar.
 
 Then you can start the application with the `java -jar *.jar` command.

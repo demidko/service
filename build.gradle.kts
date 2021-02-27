@@ -11,13 +11,13 @@ plugins {
 dependencies {
   implementation("com.github.ajalt.clikt:clikt:3.1.0")
   implementation("io.ktor:ktor-server-netty:1.5.1")
-  testImplementation("org.testng:testng:7.3.0")
+  testImplementation("org.junit.jupiter:junit-jupiter:5.8.0-M1")
   testImplementation("com.natpryce:hamkrest:1.8.0.1")
-  testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0")
+  testImplementation("io.mockk:mockk:1.10.6")
 }
 
 tasks.test {
-  useTestNG()
+  useJUnitPlatform()
 }
 
 tasks.compileKotlin {
@@ -26,9 +26,7 @@ tasks.compileKotlin {
 
 tasks.jar {
   manifest {
-    attributes(
-      "Main-Class" to "AppKt"
-    )
+    attributes("Main-Class" to "AppKt")
   }
 }
 
