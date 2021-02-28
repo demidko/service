@@ -9,8 +9,7 @@ arguments. [`Ktor`](https://ktor.io/) is included to mock Digital Ocean healthy 
 
 ### Deploy to cloud with [`Digital Ocean`](https://cloud.digitalocean.com/)
 
-1. Select repository [`here`](https://cloud.digitalocean.com/apps) to start microservice.
-1. Go to `components` tab and set environment variable `$BACKEND_OPTIONS` to `--digital-ocean` value.
+* Select repository [`here`](https://cloud.digitalocean.com/apps) to start microservice.
 
 ### Run with [`Docker`](https://www.docker.com/products/docker-desktop)
 
