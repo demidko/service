@@ -3,6 +3,6 @@ version: "3.9"
 services:
   backend:
     build: .
-    command: java -jar app $BACKEND_OPTIONS
+    command: $ARGS
     ports:
       - "80:80"

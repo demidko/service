@@ -1,4 +1,8 @@
 import com.github.ajalt.clikt.core.CliktCommand
+import com.github.ajalt.clikt.parameters.arguments.argument
+import com.github.ajalt.clikt.parameters.arguments.multiple
+import com.github.ajalt.clikt.parameters.options.flag
+import com.github.ajalt.clikt.parameters.options.option
 import io.ktor.application.*
 import io.ktor.http.HttpStatusCode.Companion.OK
 import io.ktor.response.*
@@ -6,23 +10,20 @@ import io.ktor.routing.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 
-fun main(args: Array<String>) = object : CliktCommand("Application description here") {
+fun main(args: Array<String>) = application().main(args)
+
+fun application() = object : CliktCommand("Application description here") {
+
+  val opt by argument().multiple()
 
   override fun run() {
-    /**
-     * Your code here
-     */
-    mockHealthyChecks()
+    println(opt)
+    localhostServer().start(true)
   }
+}
 
-  fun mockHealthyChecks() {
-    echo("localhost:80 -> HTTP 200 OK")
-    val server = embeddedServer(Netty) {
-      routing {
-        get("/") { call.respond(OK) }
-      }
-    }
-    server.start(false)
+fun localhostServer() = embeddedServer(Netty) {
+  routing {
+    get("/") { call.respond(OK) }
   }
-
-}.main(args)
+}
