@@ -1,8 +1,6 @@
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.arguments.argument
 import com.github.ajalt.clikt.parameters.arguments.multiple
-import com.github.ajalt.clikt.parameters.options.flag
-import com.github.ajalt.clikt.parameters.options.option
 import io.ktor.application.*
 import io.ktor.http.HttpStatusCode.Companion.OK
 import io.ktor.response.*
@@ -17,7 +15,7 @@ fun application() = object : CliktCommand("Application description here") {
   val opt by argument().multiple()
 
   override fun run() {
-    println(opt)
+    echo(opt)
     localhostServer().start(true)
   }
 }
