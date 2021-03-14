@@ -23,12 +23,6 @@ build
 .DS_Store
 *.jar
 
-# Gradle wrapper
-gradle
-gradlew
-gradlew.bat
-settings.gradle.kts
-
 
 
 
