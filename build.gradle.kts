@@ -9,6 +9,7 @@ plugins {
 }
 
 dependencies {
+  implementation("ch.qos.logback:logback-classic:1.3.0-alpha5")
   implementation("com.github.ajalt.clikt:clikt:3.1.0")
   implementation("io.ktor:ktor-server-netty:1.5.2")
   implementation("io.ktor:ktor-client-cio:1.5.2")
