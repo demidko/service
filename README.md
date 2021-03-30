@@ -1,4 +1,4 @@
-## Service
+## `Service`
 
 Kotlin service template produces self-executable jar application. For brevity, double-space
 formatting is used. [`Clikt`](https://ajalt.github.io/clikt/whyclikt/) is included for parsing
