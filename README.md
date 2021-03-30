@@ -10,7 +10,8 @@ Make sure you are signed in to your GitHub account, then just click [`here`](htt
 
 ### Build application
 
-Run command `./gradlew clean test shadowJar` in the repo. Then you can start the application with the `java -jar *.jar` command.
+Run command `./gradlew clean test shadowJar` in the repo.  
+Then you can start the application with the `java -jar *.jar` command.
 
 ### Deploy to [`Digital Ocean`](https://cloud.digitalocean.com/)
 
