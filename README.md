@@ -12,7 +12,7 @@ Make sure you are signed in to your GitHub account, then just click [`here`](htt
 
 Execute command `./gradlew clean test shadowJar` in the repo. Then you can start the application with the `java -jar *.jar` command.
 
-### Or, deploy to cloud with [`Digital Ocean`](https://cloud.digitalocean.com/)
+### Deploy to [`Digital Ocean`](https://cloud.digitalocean.com/)
 
 Select repository [`here`](https://cloud.digitalocean.com/apps) to start microservice.
 
