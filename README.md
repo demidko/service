@@ -6,7 +6,7 @@ command line arguments. [`Ktor`](https://ktor.io/) is included to mock Digital O
 
 ### Template usage
 
-* Just click [`this button`](https://github.com/demidko/Projekt/generate) to use template.
+* Just click [`here`](https://github.com/demidko/service/generate) to use template.
 
 ### Build application
 
