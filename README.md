@@ -1,12 +1,12 @@
 ## Service
 
-Kotlin service project template produces self-executable jar application. For brevity, double-space
+Kotlin service template produces self-executable jar application. For brevity, double-space
 formatting is used. [`Clikt`](https://ajalt.github.io/clikt/whyclikt/) is included for parsing
 command line arguments. [`Ktor`](https://ktor.io/) is included to mock Digital Ocean healthy checks.
 
 ### Template usage
 
-* Just click [`here`](https://github.com/demidko/service/generate) to use template.
+* Make sure you are signed in to your GitHub account, then just click [`here`](https://github.com/demidko/service/generate) to use template.
 
 ### Build application
 
