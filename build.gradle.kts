@@ -35,5 +35,5 @@ tasks.jar {
 tasks.shadowJar {
   archiveClassifier.set("")
   archiveVersion.set("")
-  destinationDirectory.set(rootDir)
+  destinationDirectory.set(buildDir)
 }
