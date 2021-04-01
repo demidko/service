@@ -6,12 +6,13 @@ command line arguments. [`Ktor`](https://ktor.io/) is included to mock Digital O
 
 ### Usage
 
-Make sure you are signed in to your GitHub account, then just click [`here`](https://github.com/demidko/service/generate) to use template.
+Make sure you are signed in to your GitHub account, then just
+click [`here`](https://github.com/demidko/service/generate) to use template.
 
 ### Build
 
-Execute `./gradlew clean test shadowJar`  
-<sub>After that, the jar application will appear in the in the repository and you can run it using `java -jar *.jar` command.</sub>
+Execute `./gradlew clean test shadowJar`. Your app will be located at `./build`. You can run it
+with `java -jar ./build/*.jar`.
 
 ### Deploy to the cloud
 
