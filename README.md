@@ -4,17 +4,15 @@ Kotlin microservice template produces self-executable jar application. For brevi
 formatting is used. [`Clikt`](https://ajalt.github.io/clikt/whyclikt/) is included for parsing
 command line arguments. [`Ktor`](https://ktor.io/) is included to mock Digital Ocean healthy checks.
 
+[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/demidko/service/tree/main)
+
 ### Usage
 
 Make sure you are signed in to your GitHub account, then just click [`here`](https://github.com/demidko/service/generate) to use template.
 
 ### Build
 
-Run command `./gradlew clean test shadowJar` in the repo. Then you can start the application with the `java -jar *.jar` command.
-
-__
-
-[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/demidko/service/tree/main)  
+Run command `./gradlew clean test shadowJar` in the repo. Then you can start the application with the `java -jar *.jar` command.  
 
 
 
