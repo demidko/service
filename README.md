@@ -11,8 +11,7 @@ Make sure you are signed in to your GitHub account, then just click [`here`](htt
 ### Build
 
 Run command `./gradlew clean test shadowJar`.  
-<sub>Small text</sub>
-_After that, the jar application will appear in the in the repository and you can start it with the `java -jar *.jar` command._
+<sup>After that, the jar application will appear in the in the repository and you can start it with the `java -jar *.jar` command.</sup>
 
 ### Deploy to the cloud
 
