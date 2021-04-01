@@ -12,9 +12,7 @@ Make sure you are signed in to your GitHub account, then just click [`here`](htt
 
 Run command `./gradlew clean test shadowJar` in the repo. Then you can start the application with the `java -jar *.jar` command.
 
-### Deploy to [`Digital Ocean`](https://cloud.digitalocean.com/)
-
-Select repository [`here`](https://cloud.digitalocean.com/apps) to start microservice.
+[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/demidko/service/tree/main)  
 
 
 
