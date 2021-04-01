@@ -11,8 +11,9 @@ click [`here`](https://github.com/demidko/service/generate) to use template.
 
 ### Build
 
-Execute `./gradlew clean test shadowJar`. Your app will be located at `./build`. You can run it
-with `java -jar ./build/*.jar`.
+Execute `./gradlew clean test shadowJar`.  
+Your app will be located at `./build`.  
+You can run it with `java -jar ./build/*.jar`.
 
 ### Deploy to the cloud
 
