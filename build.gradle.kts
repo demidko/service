@@ -31,9 +31,3 @@ tasks.jar {
     attributes("Main-Class" to "AppKt")
   }
 }
-
-tasks.shadowJar {
-  archiveClassifier.set("")
-  archiveVersion.set("")
-  destinationDirectory.set(buildDir)
-}
