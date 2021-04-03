@@ -13,9 +13,3 @@ click [`here`](https://github.com/demidko/service/generate) to use template.
 
 Execute `./gradlew clean build`. Your jar will be located at `./build/libs`.
 
-### Deploy to the cloud
-
-[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/demidko/service/tree/main)
-
-
-
