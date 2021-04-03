@@ -1,0 +1,11 @@
+spec:
+  name: service
+  services:
+    - name: backend
+      git:
+        branch: main
+        repo_clone_url: https://github.com/demidko/service
+      envs:
+        - key: TEXT_PARAM
+          value: "password-testvalue"
+          type: SECRET
