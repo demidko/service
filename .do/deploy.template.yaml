@@ -2,9 +2,11 @@ spec:
   name: service
   services:
     - name: backend
-      git:
+      github:
+        repo: demidko/service
         branch: main
-        repo_clone_url: https://github.com/demidko/service
+        deploy_on_push: true
+      dockerfile_path: Dockerfile
       envs:
         - key: TEXT_PARAM
           value: "password-testvalue"
