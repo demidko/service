@@ -5,7 +5,6 @@ spec:
       git:
         repo_clone_url: https://github.com/demidko/service
         branch: main
-        deploy_on_push: true
       envs:
         - key: TEXT_PARAM
           type: SECRET
