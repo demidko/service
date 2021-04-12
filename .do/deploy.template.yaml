@@ -2,9 +2,6 @@ spec:
   name: service
   services:
     - name: backend
-      git:
-        repo_clone_url: git@github.com:demidko/service.git
-        branch: main
       envs:
         - key: EXAMPLE_ENV
           type: SECRET
