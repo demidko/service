@@ -3,8 +3,8 @@ spec:
   services:
     - name: backend
       git:
-        repo_clone_url: https://github.com/demidko/service
+        repo_clone_url: git@github.com:demidko/service.git
         branch: main
       envs:
-        - key: TEXT_PARAM
+        - key: EXAMPLE_ENV
           type: SECRET
