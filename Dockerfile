@@ -2,7 +2,7 @@ FROM gradle:jdk15 as builder
 WORKDIR /project
 COPY src ./src
 COPY build.gradle.kts ./build.gradle.kts
-RUN gradle clean shadowJar
+RUN gradle clean test shadowJar
 
 FROM openjdk:15 as backend
 WORKDIR /root
