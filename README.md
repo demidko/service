@@ -10,7 +10,7 @@ click [`here`](https://github.com/demidko/service/generate) to use template.
 
 ### Build
 
-Execute `./gradlew build shadowJar`. Your jar will be located at `./build/libs`.
+Execute `./gradlew clean shadowJar`. Your jar will be located at `./build/libs`.
 
 ### Deploy
 
