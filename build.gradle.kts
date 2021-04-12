@@ -4,13 +4,13 @@ repositories {
 }
 
 plugins {
-  kotlin("jvm") version "1.4.31"
+  kotlin("jvm") version "1.4.32"
   id("com.github.johnrengelman.shadow") version "6.1.0"
 }
 
 dependencies {
   implementation("ch.qos.logback:logback-classic:1.3.0-alpha5")
-  implementation("io.ktor:ktor-server-netty:1.5.2")
+  implementation("io.ktor:ktor-server-netty:1.5.3")
   testImplementation("io.ktor:ktor-client-cio:1.5.2")
   testImplementation("org.junit.jupiter:junit-jupiter:5.8.0-M1")
   testImplementation("com.natpryce:hamkrest:1.8.0.1")
