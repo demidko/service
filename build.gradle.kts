@@ -22,7 +22,7 @@ tasks.test {
 }
 
 tasks.compileKotlin {
-  kotlinOptions.jvmTarget = "11"
+  kotlinOptions.jvmTarget = "15"
 }
 
 tasks.jar {
