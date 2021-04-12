@@ -2,7 +2,7 @@ FROM gradle:jdk11 as builder
 WORKDIR /project
 COPY src ./src
 COPY build.gradle.kts ./build.gradle.kts
-RUN gradle clean build
+RUN gradle clean shadowJar
 
 FROM openjdk:11 as backend
 WORKDIR /root
