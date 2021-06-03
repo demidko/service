@@ -7,6 +7,3 @@ spec:
         repo: demidko/service
         branch: main
         deploy_on_push: true
-      envs:
-        - key: EXAMPLE
-          type: SECRET
