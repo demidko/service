@@ -8,7 +8,7 @@ plugins {
 }
 dependencies {
   implementation("io.ktor:ktor-server-netty:1.6.0")
-  implementation("org.redisson:redisson:3.15.5")
+  implementation("org.redisson:redisson:3.15.6")
   implementation("co.touchlab:stately-isolate-jvm:1.1.7-a1")
   implementation("ch.qos.logback:logback-classic:1.3.0-alpha5")
   testImplementation("org.junit.jupiter:junit-jupiter:5.8.0-M1")
