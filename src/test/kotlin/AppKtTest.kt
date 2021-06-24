@@ -14,12 +14,12 @@ class AppKtTest {
 
     localhostServer().start(false)
 
-    val status = runBlocking {
+    val answer = runBlocking {
       HttpClient().use {
         it.get<HttpStatusCode>()
       }
     }
 
-    assertThat(status, equalTo(OK))
+    assertThat(answer, equalTo(OK))
   }
 }
