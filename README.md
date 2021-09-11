@@ -14,19 +14,18 @@ Execute `./gradlew clean build`. Your jar will be located at `./build/libs` with
 Now you can run:
 
 ```shell
-java -jar SubWeb-all.jar
+java -jar service-all.jar
 ```
 
 ## Or, build with Docker
 
-Execute `docker build . -t subweb`. Your image will be located at `docker images -a`. Now you can
+Execute `docker build . -t service`. Your image will be located at `docker images -a`. Now you can
 run:
 
 ```shell
-docker run -it --rm subweb
+docker run -it --rm service
 ```
 
 ## Deploy
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue-ghost.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/demidko/service/tree/main)
-
+[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue-ghost.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/YOUR/REPO/tree/main)
