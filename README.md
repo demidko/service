@@ -8,9 +8,23 @@ formatting is used. [`Ktor`](https://ktor.io/) is included to mock Digital Ocean
 Make sure you are signed in to your GitHub account, then just
 click [`here`](https://github.com/demidko/service/generate) to use template.
 
-## Build
+## Build with Java
 
 Execute `./gradlew clean build`. Your jar will be located at `./build/libs` with `-all.jar` postfix.
+Now you can run:
+
+```shell
+java -jar SubWeb-all.jar
+```
+
+## Or, build with Docker
+
+Execute `docker build . -t subweb`. Your image will be located at `docker images -a`. Now you can
+run:
+
+```shell
+docker run -it --rm subweb
+```
 
 ## Deploy
 
