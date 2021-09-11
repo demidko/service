@@ -1,5 +1,5 @@
-import com.natpryce.hamkrest.assertion.assertThat
-import com.natpryce.hamkrest.equalTo
+import assertk.assertThat
+import assertk.assertions.isEqualTo
 import io.ktor.client.*
 import io.ktor.client.request.*
 import io.ktor.http.*
@@ -11,15 +11,12 @@ class AppKtTest {
 
   @Test
   fun testLocalhostServer() {
-
     localhostServer().start(false)
-
     val answer = runBlocking {
       HttpClient().use {
         it.get<HttpStatusCode>()
       }
     }
-
-    assertThat(answer, equalTo(OK))
+    assertThat(answer).isEqualTo(OK)
   }
 }
