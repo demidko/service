@@ -24,7 +24,7 @@ Execute `docker build . -t service`. Your image will be located at `docker image
 run:
 
 ```shell
-docker run -it --rm service
+docker run -v `pwd`:`pwd` -w `pwd` -it --rm service
 ```
 
 ## Deploy
