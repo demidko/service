@@ -5,8 +5,9 @@ formatting is used. [`Ktor`](https://ktor.io/) is included to mock Digital Ocean
 
 ## Usage
 
-Make sure you are signed in to your GitHub account, then just
-click [`here`](https://github.com/demidko/service/generate) to use template.
+1. Make sure you are signed in to your GitHub account, then just
+   click [`here`](https://github.com/demidko/service/generate) to use template.
+2. `App.kt` file is entry point.
 
 ## Build with Java
 
