@@ -29,4 +29,6 @@ docker run -v `pwd`:`pwd` -w `pwd` -it --rm service
 
 ## Deploy
 
+You can edit deploy configuration at file [deploy.template.yaml](.do/deploy.template.yaml).
+
 [![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue-ghost.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/YOUR/REPO/tree/main)

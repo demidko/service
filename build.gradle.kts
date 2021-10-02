@@ -10,8 +10,8 @@ dependencies {
   implementation("io.ktor:ktor-server-netty:1.6.3")
   implementation("io.ktor:ktor-client-cio:1.6.3")
   implementation("ch.qos.logback:logback-classic:1.2.6")
-  testImplementation("org.junit.jupiter:junit-jupiter:5.7.2")
-  testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.24")
+  testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+  testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.25")
   testImplementation("io.mockk:mockk:1.12.0")
 }
 tasks.compileKotlin {
