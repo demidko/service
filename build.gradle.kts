@@ -3,7 +3,7 @@ repositories {
   maven("https://jitpack.io")
 }
 plugins {
-  kotlin("jvm") version "1.6.0-RC"
+  kotlin("jvm") version "1.6.0-RC2"
   id("com.github.johnrengelman.shadow") version "7.1.0"
 }
 dependencies {
