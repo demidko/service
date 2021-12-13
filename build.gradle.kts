@@ -31,7 +31,8 @@ tasks.jar {
   manifest.attributes("Main-Class" to "AppKt")
 }
 tasks.shadowJar {
-  minimize()
+  minimize() // if build is unsuccessful, you can disable it
+  // also, if build still unsuccessful, you can try to add mergeServiceFiles() call
 }
 tasks.build {
   dependsOn(tasks.shadowJar)
