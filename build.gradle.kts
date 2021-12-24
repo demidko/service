@@ -3,14 +3,14 @@ repositories {
   maven("https://jitpack.io")
 }
 plugins {
-  kotlin("jvm") version "1.6.0"
+  kotlin("jvm") version "1.6.10"
   id("com.github.johnrengelman.shadow") version "7.1.0"
 }
 dependencies {
   implementation("io.ktor:ktor-server-netty:1.6.5")
   implementation("io.ktor:ktor-freemarker:1.6.5")
   implementation("io.ktor:ktor-client-cio:1.6.5")
-  implementation("ch.qos.logback:logback-classic:1.2.7")
+  implementation("ch.qos.logback:logback-classic:1.2.9 ")
   testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
   testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.25")
   testImplementation("io.mockk:mockk:1.12.0")
