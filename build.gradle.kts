@@ -10,7 +10,7 @@ dependencies {
   implementation("io.ktor:ktor-server-netty:1.6.5")
   implementation("io.ktor:ktor-freemarker:1.6.5")
   implementation("io.ktor:ktor-client-cio:1.6.5")
-  implementation("ch.qos.logback:logback-classic:1.2.9 ")
+  implementation("ch.qos.logback:logback-classic:1.2.9")
   testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
   testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.25")
   testImplementation("io.mockk:mockk:1.12.0")
