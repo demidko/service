@@ -3,7 +3,7 @@ repositories {
   maven("https://jitpack.io")
 }
 plugins {
-  kotlin("jvm") version "1.6.10"
+  kotlin("jvm") version "1.6.20-M1"
   id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 dependencies {
@@ -17,11 +17,11 @@ dependencies {
 }
 tasks.compileKotlin {
   kotlinOptions.jvmTarget = "17"
-  kotlinOptions.freeCompilerArgs += "-Xopt-in=kotlin.time.ExperimentalTime"
+  kotlinOptions.freeCompilerArgs += "-opt-in=kotlin.time.ExperimentalTime"
 }
 tasks.compileTestKotlin {
   kotlinOptions.jvmTarget = "17"
-  kotlinOptions.freeCompilerArgs += "-Xopt-in=kotlin.time.ExperimentalTime"
+  kotlinOptions.freeCompilerArgs += "-opt-in=kotlin.time.ExperimentalTime"
 }
 tasks.test {
   useJUnitPlatform()
