@@ -7,8 +7,10 @@ plugins {
   id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 dependencies {
-  implementation("io.ktor:ktor-server-netty:2.0.2")
-  implementation("io.ktor:ktor-client-cio:2.0.2")
+  implementation("io.ktor:ktor-server-core-jvm:2.0.2")
+  implementation("io.ktor:ktor-server-netty-jvm:2.0.2")
+  implementation("io.ktor:ktor-server-status-pages-jvm:2.0.2")
+  implementation("io.ktor:ktor-server-default-headers-jvm:2.0.2")
   implementation("ch.qos.logback:logback-classic:1.2.11")
   testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
   testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.25")
