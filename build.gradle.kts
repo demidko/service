@@ -8,7 +8,6 @@ plugins {
 }
 dependencies {
   implementation("io.ktor:ktor-server-netty:2.0.2")
-  implementation("io.ktor:ktor-freemarker:2.0.2")
   implementation("io.ktor:ktor-client-cio:2.0.2")
   implementation("ch.qos.logback:logback-classic:1.2.11")
   testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
