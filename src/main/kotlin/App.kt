@@ -5,7 +5,7 @@ import io.ktor.server.netty.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
-fun main(args: Array<String>) {
+fun main() {
   localhostServer().start(true)
 }
 
