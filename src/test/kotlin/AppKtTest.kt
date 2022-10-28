@@ -1,5 +1,4 @@
-import assertk.assertThat
-import assertk.assertions.isEqualTo
+import com.google.common.truth.Truth.assertThat
 import io.ktor.client.*
 import io.ktor.client.request.*
 import io.ktor.http.HttpStatusCode.Companion.OK
